@@ -49,7 +49,7 @@ describe Classroom do
   # Iteration 3
 
   context 'Capacity' do
-    it 'can check capacity' do
+    it 'can check and maintain capacity' do
       classroom = Classroom.new('History', 4)
       classroom.add_student('Mike')
       classroom.add_student('Megan')
@@ -61,7 +61,7 @@ describe Classroom do
 
       expect(classroom.over_capacity?).to eq(true)
     end
-    
+
     # Iteration 4
     it 'can kick students out' do
       classroom = Classroom.new('History', 4)
