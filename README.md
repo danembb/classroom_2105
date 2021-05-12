@@ -59,8 +59,7 @@ classroom.yell_at_students
 Now, it is time for you to write your own tests! Follow the interaction pattern
 below to write one test, make that test pass, and move on to the next test.
 You will have at minimum, one test per new method.
-* The method `over_capacity` will return true or false if the classroom has more students
-than the capacity
+* The method `over_capacity` will return true or false if the classroom has more students than the capacity
 
 ```ruby
 pry(main)> require './lib/classroom'
